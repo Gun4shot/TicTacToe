@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tic Tac Toe</title>
+  
+  
+  <link href="https://fonts.cdnfonts.com/css/in-house-edition" rel="stylesheet">
+                
+  <style>
+                            @import url('https://fonts.cdnfonts.com/css/in-house-edition');
+</style>
+                
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+  <h1 class="header">TIC TAC TOE</h1>
+<br>
+<div class="main_container">
+  
+  
+  <div class="first_column">
+    <div class="a11" onclick="displayMarker('marker11')" onmouseover="hover('marker11') " onmouseout="endhover('marker11') "> <span class="marker11"> o</span></div>
+    <div class="a12" onclick="displayMarker('marker12')" onmouseover="hover('marker12') " onmouseout="endhover('marker12') "><span class="marker12"> o</span></div>
+    <div class="a13" onclick="displayMarker('marker13')" onmouseover="hover('marker13') " onmouseout="endhover('marker13') " ><span class="marker13"> o</span></div>
+  </div>
+  
+  <div class="second_column">
+    <div class="a21" onclick="displayMarker('marker21')" onmouseover="hover('marker21') " onmouseout="endhover('marker21') "><span class="marker21"> o</span></div>
+    <div class="a22" onclick="displayMarker('marker22')" onmouseover="hover('marker22') " onmouseout="endhover('marker22') "><span class="marker22"> o</span></div>
+    <div class="a23" onclick="displayMarker('marker23')" onmouseover="hover('marker23') " onmouseout="endhover('marker23') "><span class="marker23"> o</span></div>
+  </div>
+  
+  <div class="third_column">
+    <div class="a31"onclick="displayMarker('marker31')" onmouseover="hover('marker31') " onmouseout="endhover('marker31') "><span class="marker31"> o</span></div>
+    <div class="a32" onclick="displayMarker('marker32')" onmouseover="hover('marker32') " onmouseout="endhover('marker32') "><span class="marker32"> o</span></div>
+    <div class="a33" onclick="displayMarker('marker33')" onmouseover="hover('marker33') " onmouseout="endhover('marker33') "><span class="marker33"> o</span></div>
+  </div>
+  
+  
+</div>
+
+<br>
+<br>
+<h1 class="winningmsg">X wins !</h1>
+
+<div onclick="restartPage()" class=
+"restart" >Restart</div>
+
+<br>
+<br>
+<h1 class="header2"><u>Scores:</u></h1>
+<div class="scoreCount">
+  <div class="scoreO"><h1><u>O</u> </h1></div>
+  <div class=scoreX><h1><u>X</u></h1></div>
+  <div class="scoreDraw"><h1><u>Draw</u></h1>  </div>
+</div>
+
+<div class="scoreCount">
+  <div class="scoreO"><h1 class="CscoreO">-- </h1></div>
+  <div class=scoreX><h1 class="CscoreX">--</h1></div>
+  <div class="scoreDraw"><h1 class=" CscoreDraw">--</h1> </div>
+</div>
+
+<br>
+<br>
+<br>
+
+</body>
+</html>
